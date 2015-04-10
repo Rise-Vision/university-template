@@ -63,16 +63,18 @@ ul.bxslider li{
 }
 
 .imgSlider{
-	width: 40%;
-	height: 60vh;
+	// width: 40%;
+	// height: 60vh;
 	float: left;
 	position: relative;
 	z-index: 1000;
 	li{
 		width: 57vw;
-  		height: 99.41vh;
+		height: 86.43vh;
+		position: absolute;
+		top: 13vh;
 		img{
-			width: 100%;
+			// width: 100%;
 			height: 100%;
 			object-fit: cover;
 		}

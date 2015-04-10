@@ -196,16 +196,15 @@ ul.bxslider li {
   text-align: center; }
 
 .imgSlider {
-  width: 40%;
-  height: 60vh;
   float: left;
   position: relative;
   z-index: 1000; }
   .imgSlider li {
     width: 57vw;
-    height: 99.41vh; }
+    height: 86.43vh;
+    position: absolute;
+    top: 13vh; }
     .imgSlider li img {
-      width: 100%;
       height: 100%;
       object-fit: cover; }
 
