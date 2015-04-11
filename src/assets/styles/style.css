@@ -186,12 +186,12 @@ ul.bxslider li {
   display: inline-block; }
 
 .block3 {
-  width: 40%;
+  width: 50vw;
   float: right;
   font-size: 3vw;
   position: relative;
   top: 45vh;
-  right: 6vw;
+  right: 3vw;
   z-index: 1000;
   text-align: center; }
 
@@ -201,9 +201,9 @@ ul.bxslider li {
   z-index: 1000; }
   .imgSlider li {
     width: 57vw;
-    height: 86.43vh;
+    height: 91.43vh;
     position: absolute;
-    top: 13vh; }
+    top: 8vh; }
     .imgSlider li img {
       height: 100%;
       object-fit: cover; }
@@ -216,5 +216,5 @@ ul.bxslider li {
   padding: 1vh 1vw 1vh 1vw;
   text-align: center;
   background: #263162;
-  font-size: 1.9vw;
+  font-size: 2vw;
   line-height: 1.8; }
