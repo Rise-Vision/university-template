@@ -37,18 +37,6 @@
 $(document).ready(function(){
 
 
-	// $('.bxslider').bxSlider({
-	//   mode: 'fade',	
-	//   auto: true,
-	//   autoControls: true,
-	//   hideControlOnEnd: true,
-	//   controls: false,
-	//   nextText: "",
-	//   prevText: "",
-	//   pause: 5600,
-	//   speed: 1000
-	// });
-
-	$('.imgSlider, .quoteSlider, .nameSlider').rotaterator({fadeSpeed:400, pauseSpeed:4830});
+	$('.imgSlider, .quoteSlider, .nameSlider').rotaterator({fadeSpeed:400, pauseSpeed: 9000});
   
 });
