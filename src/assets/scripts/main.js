@@ -37,6 +37,7 @@
 $(document).ready(function(){
 
 
+<<<<<<< HEAD
 	// $('.bxslider').bxSlider({
 	//   mode: 'fade',	
 	//   auto: true,
@@ -50,5 +51,8 @@ $(document).ready(function(){
 	// });
 
 	$('.imgSlider, .quoteSlider, .nameSlider').rotaterator({fadeSpeed:400, pauseSpeed:4830});
+=======
+	$('.imgSlider, .quoteSlider, .nameSlider').rotaterator({fadeSpeed:400, pauseSpeed: 9000});
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
   
 });

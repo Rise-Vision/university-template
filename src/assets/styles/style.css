@@ -147,6 +147,7 @@ body {
   body:after {
     clear: both; }
 
+<<<<<<< HEAD
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100; }
@@ -154,6 +155,16 @@ body {
 p {
   color: #ddd; }
 
+=======
+@font-face {
+  font-family: bitter;
+  src: url(../fonts/Bitter-Regular.otf); }
+
+body {
+  font-family: bitter;
+  font-weight: 100; }
+
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
 .container {
   width: 100vw;
   height: 100vh;
@@ -166,7 +177,11 @@ p {
 .overlay {
   width: 100vw;
   height: 100vh;
+<<<<<<< HEAD
   background: rgba(23, 48, 73, 0.8);
+=======
+  background: rgba(24, 41, 61, 0.9);
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
   position: absolute;
   top: 0;
   left: 0; }
@@ -186,6 +201,7 @@ ul.bxslider li {
   display: inline-block; }
 
 .block3 {
+<<<<<<< HEAD
   width: 50vw;
   float: right;
   font-size: 3vw;
@@ -196,15 +212,40 @@ ul.bxslider li {
   text-align: center; }
 
 .imgSlider {
+=======
+  width: 50%;
+  float: right;
+  font-size: 2.7vw;
+  position: relative;
+  top: 48vh;
+  right: 6vw;
+  z-index: 1000;
+  text-align: center;
+  font-style: italic;
+  color: #C0C0C0;
+  line-height: 8vh; }
+
+.imgSlider {
+  width: 40%;
+  height: 60vh;
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
   float: left;
   position: relative;
   z-index: 1000; }
   .imgSlider li {
+<<<<<<< HEAD
     width: 57vw;
     height: 91.43vh;
     position: absolute;
     top: 8vh; }
     .imgSlider li img {
+=======
+    width: 45vw;
+    height: 100vh;
+    overflow: hidden; }
+    .imgSlider li img {
+      width: 100%;
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
       height: 100%;
       object-fit: cover; }
 
@@ -212,9 +253,32 @@ ul.bxslider li {
   position: absolute;
   right: 0vw;
   top: 16vh;
+<<<<<<< HEAD
   width: 53vw;
   padding: 1vh 1vw 1vh 1vw;
   text-align: center;
   background: #263162;
   font-size: 2vw;
   line-height: 1.8; }
+=======
+  width: 60vw;
+  text-align: center;
+  background: #2f5077;
+  font-size: 3.5vw;
+  line-height: 1.2; }
+  .nameSlider p {
+    color: #eee; }
+  .nameSlider span {
+    text-transform: uppercase;
+    color: #C4A631;
+    font-size: 2.4vw; }
+    .nameSlider span:after {
+      content: "";
+      position: absolute;
+      z-index: 100;
+      width: 20%;
+      height: 3px;
+      color: red;
+      top: 20%;
+      left: 1%; }
+>>>>>>> 4c8d680ee218e2dba5fa2e9b61d44ef9fd3c6fd2
