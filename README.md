@@ -7,10 +7,10 @@ The University Template was created to cycle through 3 photos of students, inspi
 ##Steps to run the university template:##
 
 1. Fork or download the entire university-template repository.
-![alt tag](images/readmestep1.jpg)
+![alt tag](images/readmestep1.png)
 
 3. Host the entire “university-template” folder directory in rise vision storage or your web hosting service.
-![alt tag](images/readmestep3.jpg)
+![alt tag](images/readmestep3.png)
 
 4. Copy the link to the university-template.html file where you have it hosted and insert the url into a schedule. (you can also add this link to the url gadget within a presentation)
 ![alt tag](images/readme-step4.jpg)
